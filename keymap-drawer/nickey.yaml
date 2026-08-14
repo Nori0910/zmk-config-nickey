@@ -40,43 +40,43 @@ layers:
   - .
   - Sft+INT RO
   - '2'
-  - {t: INT MUHENKAN, h: '1'}
-  - SPACE
+  - {t: INT MUHENKAN, h: '2'}
+  - {t: SPACE, h: '1'}
   - KP ENTER
   - INT HENKAN
   - RIGHT CONTROL
   '1':
-  - ESCAPE
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - /
   - '7'
   - '8'
   - '9'
-  - '0'
+  - ','
+  - Sft+9
+  - '['
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '`'
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - LEFT
+  - '4'
+  - '5'
+  - '6'
+  - KP MINUS
+  - Sft+0
+  - ']'
   - DOWN
   - UP
   - RIGHT
   - {t: ▽, type: trans}
   - '~'
-  - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - '0'
+  - '1'
+  - '2'
   - '3'
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - (
@@ -85,8 +85,8 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,7 +166,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,7 +174,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
