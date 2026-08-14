@@ -1,7 +1,50 @@
 layout: {zmk_keyboard: nickey}
 layers:
-  default: [TAB, Q, W, E, R, Z, Y, U, I, O, '=', +, BACKSPACE, A, S, D, T, G, H, N, K, P, /, '*', LSHFT, X, C, V, B, F, LEFT WIN, DELETE, J, M, L, ., /, '=', '2',
-    '1', SPACE, BSPC, RET, RALT]
+  default:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - Z
+  - Y
+  - U
+  - I
+  - O
+  - '='
+  - +
+  - BACKSPACE
+  - A
+  - S
+  - D
+  - T
+  - G
+  - H
+  - N
+  - K
+  - P
+  - /
+  - '*'
+  - LSHFT
+  - X
+  - C
+  - V
+  - B
+  - F
+  - LEFT ALT
+  - DELETE
+  - J
+  - M
+  - L
+  - ','
+  - .
+  - Sft+INT RO
+  - '2'
+  - {t: INT MUHENKAN, h: '1'}
+  - SPACE
+  - KP ENTER
+  - INT HENKAN
+  - RIGHT CONTROL
   '1':
   - ESCAPE
   - '1'
